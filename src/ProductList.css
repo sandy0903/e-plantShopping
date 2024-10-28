@@ -4,6 +4,7 @@ body, h1, ul {
     padding: 0;
 }
 
+
 /* Set a background color */
 body {
     font-family: Arial, sans-serif;
@@ -187,6 +188,15 @@ body {
     border-right: none;
 
     
+}
+.cartContainer {
+    position: relative;
+}
+.cartQuantity{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
